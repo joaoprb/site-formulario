@@ -1,10 +1,15 @@
 var valoresArmazenados = [];
 
 function armazenarValores() {
-    var nome = document.getElementById("nome").value;
-    var idade = document.getElementById("idade").value;
-    var email = document.getElementById("email").value;
-    var endereco = document.getElementById("endereco").value;
+    var nome = document.getElementById("nome").value.trim();
+    var idade = document.getElementById("idade").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var endereco = document.getElementById("endereco").value.trim();
+
+    if(nome == "" || idade == "" || email == "" || endereco == ""){
+        alert("todos os campos devem ser preenchidos");
+        return;
+    }
 
     valoresArmazenados.push({
         nome: nome,
