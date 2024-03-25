@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&family=Workbench&display=swap');
+
+:root {
+    --fonte-primaria: 'Lora', sans-serif;
+    --fonte-secundaria: 'Quicksand', sans-serif;
+    --fonte-terciaria: 'Workbench', sans-serif;
+}
